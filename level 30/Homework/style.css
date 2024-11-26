@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.h1 {
+    color: black;
+    font: bold;
+}
+
+.green {
+    color: rgba(0, 255, 34, 0.37);
+}
+.img {
+    width: 220px;
+    height: 400px;
+    float: left;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+button {
+    background-color: rgba(0, 255, 34, 0.158);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.div {
+    width: 600px;
+    margin-top: 200px;
+    border-radius: 15px;
+    width: 450px;
+    background-color: white;
+    
+}
+
+.h3 {
+    color: rgba(0, 0, 0, 0.233);
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(158, 157, 157, 0.541);
+}
+
+
+
