@@ -1,0 +1,32 @@
+/*a:hover {
+    color: red;    
+    letter-spacing: 10px;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border: 10px solid black;
+    border-radius: 50px;
+}
+div:hover {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    border: 1000px ;
+    border-radius: 1000px ;
+
+} */
+
+table {
+    width: 100%;
+    color: white;
+    
+    border: 1px solid black;
+}
+
+.zero {
+    background-color: grey;
+}
+
