@@ -11,3 +11,8 @@ def open_or_senior(data):
             res.append('Open')
         return res
     
+
+
+
+
+

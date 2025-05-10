@@ -51,3 +51,38 @@ switch (coffe) {
     default:
         console.log("Unknown")
 }
+
+
+
+Create a timer program that will take the number of seconds as input, output the remaining time, and countdown to 0.
+
+You need to output every number, including 0.
+
+Sample Input
+5
+
+Sample Input
+5
+
+4
+
+3
+
+2
+
+1
+
+0
+
+Use the <b>--</b> decrement for shorter code.
+
+
+
+
+let i=5;
+do {
+    console.log(i);
+    i--;
+}
+
+while (i < 5)
