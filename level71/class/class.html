@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=], initial-scale=1.0">
+    <title>Classlist</title>
+    <style>
+        .div1 {
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <!--შექმენით ვებსაიტი, სადაც იქნება შემოტანილი 3 ელემენტი. 2 ელემენტი უნდა იყოს ღილაკი, ხოლო ერთი ელემენტი უნდა იყოს დივი. პირველმა ღილაკმა უნდა გაზარდოს დივის ზომა, ხოლო მეორე ღილაკმა უნდა შეამციროს დივის ზომა.  - ამ ღილაკებს ზემოდან დააწერეთ დასახელება თუ რას აკეთებს. - გამოიყენეთ classList თვისება და მისი მეთოდები.-->
+        <!--<button class="mb" onclick="MakeBigger"()">ზომის გაზრდა</button>
+        <div class="divv"></div>
+        <button class="ms" onclick="MakeSmaller"()">ზომის შემცირება</button>--!>
+
+
+
+    <!--ერთი div ელემენტი, რომელსაც აქვს საწყისი სტილი (ზომა, ფერი)
+
+სამი ღილაკი:
+
+ზომის გაზრდა – ზრდის div-ის ზომას
+
+ზომის შემცირება – ამცირებს div-ის ზომას
+
+ფერის შეცვლა – ცვლის div-ის ფერს
+
+პირობები:
+
+გამოიყენეთ classList.add(), classList.remove() და classList.toggle()
+
+ღილაკებს ზემოდან ჰქონდეთ შესაბამისი აღწერა
+
+სტილები განსაზღვრეთ CSS კლასებით
+
+ყველა მანიპულაცია მოხდეს JavaScript-ით-->
+
+    <div class="div1"></div>
+    <button class="color-change" onclick="changeColor()">ფერის შეცვლა</button>
+    <button class="size-increase" onclick="increaseSize()">ზომის გაზრდა</button>
+    <button class="size-decrease" onclick="decreaseSize()">ზომის შემცირება</button>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
