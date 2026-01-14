@@ -1,4 +1,4 @@
 function app() {
-    return 'App is exported! <3';
+  return "App is exported! <3";
 }
 export { app };
